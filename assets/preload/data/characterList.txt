@@ -1,4 +1,5 @@
 bf
+bf-dead
 bf-chair
 bf-demon
 bf-madness
