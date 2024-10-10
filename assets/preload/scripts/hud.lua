@@ -19,7 +19,7 @@ setProperty('iconP2.scale.x', 1)
 end
 
 function onCreate()
-makeLuaText('name', songName .. ' ' .. difficultyName .. ' - KE 1.5.1', 0, 0, 703);
+makeLuaText('name', songName .. ' ' .. difficultyName .. ' - Kardech 1.5.1', 0, 0, 703);
 setObjectCamera('name', 'camhud');
 addLuaText('name');
 end
