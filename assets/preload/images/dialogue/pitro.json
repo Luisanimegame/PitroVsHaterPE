@@ -1,0 +1,50 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		-50,
+		-50
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "portrait enter0",
+			"idle_name": "portrait enter0"
+		},
+		{
+			"loop_name": "portrait confuso enter0",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "portrait confuso enter0",
+			"anim": "que",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "portrait bruh enter0",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "portrait bruh enter0",
+			"anim": "bruh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "PITRO_DIALOGUE"
+}
