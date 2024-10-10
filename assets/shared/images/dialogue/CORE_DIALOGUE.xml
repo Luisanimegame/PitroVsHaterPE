@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CORE_DIALOGUE.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="portrait enter0000" x="0" y="508" width="355" height="415" frameX="-426" frameY="-55" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="portrait carinha enter0000" x="825" y="0" width="355" height="415" frameX="-426" frameY="-55" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="portrait troll enter0000" x="0" y="0" width="470" height="508" frameX="-367" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="core base0000" x="470" y="0" width="355" height="415" frameX="-426" frameY="-125" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

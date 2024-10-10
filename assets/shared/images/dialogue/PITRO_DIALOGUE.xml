@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Pitro_dialogue.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="portrait enter0000" x="786" y="0" width="381" height="377" frameX="-444" frameY="-89" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="portrait confuso enter0000" x="342" y="0" width="444" height="369" frameX="-331" frameY="-105" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="portrait bruh enter0000" x="0" y="0" width="342" height="648" frameX="-455" frameY="-1" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>
