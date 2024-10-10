@@ -2,8 +2,7 @@
 	"animations": [
 		{
 			"offsets": [
-				-5,
-				0
+				81,174
 			],
 			"loop": false,
 			"fps": 24,
@@ -13,8 +12,7 @@
 		},
 		{
 			"offsets": [
-				5,
-				-6
+				94, 134
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +22,7 @@
 		},
 		{
 			"offsets": [
-				-20,
-				-51
+				-36, -100
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +32,7 @@
 		},
 		{
 			"offsets": [
-				-46,
-				27
+				65, 199
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +42,7 @@
 		},
 		{
 			"offsets": [
-				-48,
-				-7
+				16, 105
 			],
 			"loop": false,
 			"fps": 24,
@@ -57,8 +52,7 @@
 		},
 		{
 			"offsets": [
-				7,
-				19
+				94, 134
 			],
 			"loop": false,
 			"fps": 24,
@@ -68,8 +62,7 @@
 		},
 		{
 			"offsets": [
-				-15,
-				-19
+				-36, -100
 			],
 			"loop": false,
 			"fps": 24,
@@ -79,8 +72,7 @@
 		},
 		{
 			"offsets": [
-				-46,
-				27
+				65, 199
 			],
 			"loop": false,
 			"fps": 24,
@@ -90,94 +82,27 @@
 		},
 		{
 			"offsets": [
-				-44,
-				22
+				16, 105
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHTmiss",
 			"indices": [],
 			"name": "BF NOTE RIGHT MISS"
-		},
-		{
-			"offsets": [
-				-3,
-				5
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "hey",
-			"indices": [],
-			"name": "BF HEY"
-		},
-		{
-			"offsets": [
-				14,
-				18
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "hurt",
-			"indices": [],
-			"name": "BF hit"
-		},
-		{
-			"offsets": [
-				-4,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "scared",
-			"indices": [],
-			"name": "BF idle shaking"
-		},
-		{
-			"offsets": [
-				-10,
-				-16
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "dodge",
-			"indices": [],
-			"name": "boyfriend dodge"
-		},
-		{
-			"offsets": [
-				294,
-				267
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "attack",
-			"indices": [],
-			"name": "boyfriend attack"
-		},
-		{
-			"offsets": [
-				-40,
-				-40
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "pre-attack",
-			"indices": [],
-			"name": "bf pre attack"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/PITROZITO",
 	"position": [
 		0,
-		350
+		0
 	],
-	"healthicon": "bf",
+	"healthicon": "pitro",
 	"flip_x": true,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		0,
+		215,
+		200
 	],
 	"camera_position": [
 		0,
