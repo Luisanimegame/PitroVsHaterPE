@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				67,
+				-1
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SUPER SONIC GAMER BR LEFT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				64,
+				-101
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SUPER SONIC GAMER BR DOWN"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				250
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SUPER SONIC GAMER BR UP"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				-1
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SUPER SONIC GAMER BR RIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SUPER SONIC GAMER BR IDLE"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SUPERSONICGAMERBR",
+	"position": [
+		0,
+		450
+	],
+	"healthicon": "hater",
+	"flip_x": false,
+	"healthbar_colors": [
+		44,
+		118,
+		130
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
