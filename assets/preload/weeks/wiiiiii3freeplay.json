@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Chair-battle", "corre", [255, 255, 255]]
+	],
+
+	"weekCharacters": [
+		"",
+		"corezin",
+		""
+	],
+	"weekBackground": "",
+
+	"storyName": "PITRO VS CORE",
+	"difficulties": "Normal, Hard",
+	"weekBefore": "wiiiiiipurgation2",
+	"weekName": "Wiiiiii 3 Freeplay",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}
