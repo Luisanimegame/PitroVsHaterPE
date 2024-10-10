@@ -4038,6 +4038,8 @@ class PlayState extends MusicBeatState
 
 		var rating:FlxSprite = new FlxSprite();
 		var score:Int = 350;
+		
+		var daRating = daNote.rating;
 
 		//tryna do MS based judgment due to popular demand
 		var daRating:Rating = Conductor.judgeNote(note, noteDiff / playbackRate);
@@ -4216,6 +4218,11 @@ class PlayState extends MusicBeatState
 			},
 			startDelay: Conductor.crochet * 0.002 / playbackRate
 		});
+	}
+	
+	function noteCheck(controlArray:Array<Bool>, note:Note):Void // sorry lol
+	{
+	note.rating = Ratings.CalculateRating(noteDiff);
 	}
 
 	public var strumsBlocked:Array<Bool> = [];
@@ -4563,6 +4570,9 @@ class PlayState extends MusicBeatState
 
 	function goodNoteHit(note:Note):Void
 	{
+	
+		note.rating = Ratings.CalculateRating(noteDiff);
+	
 		if (!note.wasGoodHit)
 		{
 			if(cpuControlled && (note.ignoreNote || note.hitCausesMiss)) return;
