@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "pitro",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "wiiiiiiiiii Core cheguei, vamo gravar o jogo de setinha? bep bop"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "core",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ih vei, nao vai dar nao"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "core",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "o pc deu pau, tu nem vai acreditar no que aconteceu..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "core",
+			"boxState": "normal",
+			"expression": "carinha",
+			"text": "Friday Night Funkin' Vs Core na Gamejolt."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "pitro",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "poxa que pena"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "core",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "que tal se a gente fazer um video cantando?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "core",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "tipo uma batalha de rap?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "core",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "vai ser dahora"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "pitro",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "simbora KEEEEEEEEEEEEEEEEEEEEEEEEK"
+		}
+	]
+}
