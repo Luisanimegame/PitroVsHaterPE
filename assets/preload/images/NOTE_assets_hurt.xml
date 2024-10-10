@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_assets_hurt.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="blue0000" x="316" y="0" width="161" height="158" frameX="2" frameY="2" frameWidth="157" frameHeight="154"/>
+	<SubTexture name="green0000" x="0" y="161" width="161" height="158" frameX="2" frameY="2" frameWidth="157" frameHeight="154"/>
+	<SubTexture name="purple0000" x="0" y="0" width="158" height="161" frameX="2" frameY="2" frameWidth="154" frameHeight="157"/>
+	<SubTexture name="red0000" x="158" y="0" width="158" height="161" frameX="2" frameY="2" frameWidth="154" frameHeight="157"/>
+</TextureAtlas>

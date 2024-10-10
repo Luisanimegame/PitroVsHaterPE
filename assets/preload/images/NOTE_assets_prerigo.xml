@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_assets_prerigo.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="blue0000" x="0" y="0" width="169" height="174" frameX="7" frameY="-7" frameWidth="238" frameHeight="235"/>
+	<SubTexture name="green0000" x="327" y="0" width="171" height="157" frameX="7" frameY="-12" frameWidth="238" frameHeight="235"/>
+	<SubTexture name="purple0000" x="169" y="0" width="158" height="173" frameX="-4" frameY="-2" frameWidth="238" frameHeight="235"/>
+	<SubTexture name="red0000" x="0" y="174" width="159" height="175" frameX="-4" frameY="-2" frameWidth="238" frameHeight="235"/>
+</TextureAtlas>
