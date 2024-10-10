@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Core", "corre", [255, 255, 255]],
+		["Punchtune", "corre", [255, 255, 255]],
+		["Hardcore", "corre", [255, 255, 255]]
+	],
+
+	"weekCharacters": [
+		"",
+		"corezin",
+		""
+	],
+	"weekBackground": "",
+
+	"storyName": "PITRO VS CORE",
+	"difficulties": "Normal, Hard",
+	"weekBefore": "weak1",
+	"weekName": "Wiiiiii 2",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

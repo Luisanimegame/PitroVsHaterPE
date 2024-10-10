@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Hater", "hater", [255, 255, 255]],
+		["From-hell", "demon", [255, 255, 255]]
+	],
+
+	"weekCharacters": [
+		"",
+		"hater",
+		""
+	],
+	"weekBackground": "",
+
+	"storyName": "PITRO VS HATER",
+	"difficulties": "Normal, Hard",
+	"weekBefore": "tutorial",
+	"weekName": "Weak 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
