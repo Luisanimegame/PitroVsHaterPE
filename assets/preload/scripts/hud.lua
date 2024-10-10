@@ -57,7 +57,7 @@ setProperty('grpNoteSplashes.visible', false);
 
 makeLuaText('songPosTxt', songName, 0, 0, getProperty('timeBarBG.y'));
 screenCenter('songPosTxt', 'x');
-setObjectOrder('songPosTxt', 10)
+setObjectOrder('songPosTxt', getObjectOrder('timeTxt') + 1)
 addLuaText('songPosTxt');
 setProperty('songPosTxt.visible', false);
 end
