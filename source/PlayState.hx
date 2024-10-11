@@ -4034,6 +4034,8 @@ class PlayState extends MusicBeatState
 
 		// boyfriend.playAnim('hey');
 		vocals.volume = 1;
+		
+		var daRating = daNote.rating;
 
 		var placement:String = Std.string(combo);
 
@@ -4102,9 +4104,6 @@ class PlayState extends MusicBeatState
 		comboSpr.y += 60;
 		comboSpr.velocity.x += FlxG.random.int(1, 10) * playbackRate;
 		
-		var msTiming = HelperFunctions.truncateFloat(noteDiff, 3);
-			if(FlxG.save.data.botplay) msTiming = 0;							   
-
 			if (currentTimingShown != null)
 				remove(currentTimingShown);
 
@@ -4124,27 +4123,6 @@ class PlayState extends MusicBeatState
 			currentTimingShown.borderColor = FlxColor.BLACK;
 			currentTimingShown.text = msTiming + "ms";
 			currentTimingShown.size = 20;
-
-			if (msTiming >= 0.03 && offsetTesting)
-			{
-				//Remove Outliers
-				hits.shift();
-				hits.shift();
-				hits.shift();
-				hits.pop();
-				hits.pop();
-				hits.pop();
-				hits.push(msTiming);
-
-				var total = 0.0;
-
-				for(i in hits)
-					total += i;
-				
-
-				
-				offsetTest = HelperFunctions.truncateFloat(total / hits.length,2);
-			}
 
 			if (currentTimingShown.alpha != 1)
 				currentTimingShown.alpha = 1;
@@ -4631,7 +4609,7 @@ class PlayState extends MusicBeatState
 		}
 		StrumPlayAnim(true, Std.int(Math.abs(note.noteData)), time);
 		note.hitByOpponent = true;
-
+		
 		callOnLuas('opponentNoteHit', [notes.members.indexOf(note), Math.abs(note.noteData), note.noteType, note.isSustainNote]);
 
 		if (!note.isSustainNote)
